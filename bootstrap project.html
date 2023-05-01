@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SJ Electronics</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="../css/14/bootstap project.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary" >
+        <div class="container-fluid">
+            <div><a class="navbar-brand" href="#" style="font-family:'Times New Roman', Times, serif ; font-size: 25px;">sj </a></div>
+            <div style="font-size: 20px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><div class="badge bg-primary text-wrap" style="width: 6rem;">
+              Electronics Store
+            </div></div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./bootstrap project.html"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./login 2.html" >login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a id="hov" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Mobile models
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#iphone1">Apple Iphone</a></li>
+                  <li><a class="dropdown-item" href="#redmi">Redmi</a></li>
+                  <li><a class="dropdown-item" href="#oneplus">One plus</a></li>
+                  <li><a class="dropdown-item" href="#asus">Asus</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Redmi</a></li> -->
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a id="lap" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   Laptop models
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#apple">Mac books</a></li>
+                  <li><a class="dropdown-item" href="#hp">Hp</a></li>
+                  <li><a class="dropdown-item" href="#lenovo">Lenovo</a></li>
+                  <li><a class="dropdown-item" href="#asus1">Asus</a></li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Redmi</a></li> -->
+                </ul>
+                
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                   More..
+                </a>
+                <ul id="drop" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./login 2.html" >My profile</a></li>
+                  <li><a class="dropdown-item" href="./login 2.html">My order</a></li>
+                  <li><a class="dropdown-item" href="#">Customer Care</a></li>
+                  
+                  <!-- <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Redmi</a></li> -->
+                </ul>
+                
+              </li>
+
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" id="search" onchange="openpage()" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- image -->
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://as1.ftcdn.net/v2/jpg/03/04/76/60/1000_F_304766094_oGfiNaNzXOXli1xFLLeqYgZjBABsUB29.jpg" width="100%">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.techjuice.pk/wp-content/uploads/2022/09/laptop.png" style="width: 100% ; height: auto;">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.ctfassets.net/wcfotm6rrl7u/2sDJE99xaUTEDxrkiopmtK/be3cba35562ec25a738ac957d93d7964/april_8th_launch-og_image.jpg" alt="image not showing">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <!-- webpage cards -->
+      
+      <!-- cards -->
+      <p id="iphone" style="font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020.jpg.landing-big_2x.jpg"  height="40px" width="20px" style="margin-left: 50%;" alt="not found"> Iphones</p>
+
+      <div id="iphone1" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/mobile/6/x/j/-original-imaghxejqvpwfqh2.jpeg?q=70" class="card-img-top" alt="img not found">
+            <div class="card-body">
+              <h5 class="card-title">Iphone 14 Pro max</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹1,49,900</li>
+                <li>256 GB ROM</li>
+                <li>17.02 cm (6.7 inch) Super Retina XDR Display</li>
+                <li>48MP + 12MP + 12MP + 12MP | 12MP Front Camera</li>
+                <li>A16 Bionic Chip, 6 Core Processor Processor</li>
+              </ul></p>
+              <button type="button" class="btn btn-dark" >Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 55mins mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img   height="60%" src="https://rukminim1.flixcart.com/image/832/832/ktketu80/mobile/8/z/w/iphone-13-mlph3hn-a-apple-original-imag6vzzhrxgazsg.jpeg?q=70" class="card-img-top" alt="...">
+           
+            
+            <div class="card-body">
+              <h5 class="card-title">Iphone 13</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹69,900
+                </li>
+                <li>128 GB ROM</li>
+                <li>15.49 cm (6.1 inch) Super Retina XDR Display</li>
+                <li>12MP + 12MP | 12MP Front Camera</li>
+                <li>A15 Bionic Chip Processor</li>
+              </ul></p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 2h and 13min mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img  height="60%" src="https://rukminim1.flixcart.com/image/832/832/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwkfrerak.jpeg?q=70" class="card-img-top" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">Apple Iphone 12</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹59,900</li>
+                <li>64 GB ROM</li>
+                <li>13.72 cm (5.4 inch) Super Retina XDR Display</li>
+                <li>12MP + 12MP | 12MP Front Camera</li>
+                <li>A14 Bionic Chip with Next Generation Neural Engine Processor</li>
+              </ul></p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 5 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p><a href="#"><more class=""></more></a></p>
+
+      <!-- card2 -->
+      <p id="one" style="font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW5kcm9pZCUyMHBob25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80"  height="40px" width="20px" style="margin-left: 50%;" alt="not found"> Androids</p>
+      <div id="oneplus" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/v/8/p/-original-imaggceehgfugqvf.jpeg?q=70" class="card-img-top" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">One plus 10T 5g</h5>
+              <p  class="card-text">
+                <ul>
+                  <li>price: ₹47,700</li>
+                  <li>8 GB RAM | 128 GB ROM</li>
+                  <li>17.02 cm (6.7 inch) Display</li>
+                  <li>50MP Rear Camera</li>
+                  <li>4800 mAh Battery</li>
+                  <li><a target="_blank" href="https://www.flipkart.com/oneplus-10t-5g-jade-green-128-gb/p/itm9a8677129b2bf?pid=MOBGHBNGZGSDR2UU&lid=LSTMOBGHBNGZGSDR2UUQJM4YY&marketplace=FLIPKART&q=oneplus&store=search.flipkart.com&srno=s_1_4&otracker=search&otracker1=search&fm=Search&iid=90521a99-3363-4dc9-b29f-85e3400adbd6.MOBGHBNGZGSDR2UU.SEARCH&ppt=sp&ppn=sp&ssid=ggkigeox1s0000001673678305305&qH=43780d550576947f">More...</a></li>
+                </ul>
+              </p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img height="63%" src="https://rukminim1.flixcart.com/image/832/832/l2qhjm80/mobile/g/f/p/nord-2-5g-le2514-oneplus-original-imageyh6hbve89b6.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Oneplus nord 2 5g </h5>
+              <p class="card-text"><ul>
+                <li>price: ₹38,999 </li>
+              <li>12 GB RAM | 256 GB ROM</li>
+              <li>16.33 cm (6.43 inch) Display</li>
+              <li>50MP Rear Camera</li>
+              <li>4500 mAh Battery</li></ul></p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img height="63%" src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/v/i/d/-original-imagkgshx9kfayxq.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">One plus 10pro 5g</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹62,999 </li>
+                  <li>8 GB RAM | 128 GB ROM</li>
+                  <li>17.02 cm (6.7 inch) Display</li>
+                  <li>48MP Rear Camera</li>
+                  <li>5000 mAh Battery</li>
+                </ul>
+                
+              </p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+
+      <!-- card3 -->
+      <div  id="asus" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img  src="https://rukminim1.flixcart.com/image/832/832/ky7lci80/mobile/m/k/z/-original-imagahvgdm4ycnam.jpeg?q=70" class="card-img-top" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">Asus ROG 5s</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹39,999</li>
+                  <li>8 GB RAM | 128 GB ROM</li>
+                  <li>17.22 cm (6.78 inch) Full HD+ Display</li>
+                  <li>64MP + 13MP + 5MP | 24MP Front Camera</li>
+                  <li>6000 mAh Lithium Polymer Battery</li>
+                </ul>
+                <br>
+                <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img height="58%" src="https://rukminim1.flixcart.com/image/832/832/jj4ln680/mobile/y/d/w/asus-zenfone-5z-zs621kl-2a001in-zs621kl-2a011in-original-imaf6rn7bsywmq2s.jpeg?q=70" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ZenFone 5Z</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹36,299</li>
+                <li>6 GB RAM | 128 GB ROM | Expandable Upto 2 TB</li>
+                <li>15.75 cm (6.2 inch) Full HD+ Display</li>
+                <li>12MP + 8MP | 8MP Front Camera</li>
+                <li>Qualcomm Snapdragon 845 Octa Core Processor</li>
+                
+              </ul>
+              
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img style="height: 56%; width: 65%; margin-left: 55px;" src="https://rukminim1.flixcart.com/image/832/832/jp02t8w0/mobile/m/j/q/asus-zenfone-max-m2-zb632kl-4d005in-original-imafbcafbyehstsx.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ZenFone Max M2 </h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹12,999</li>
+                  <li>
+                    3 GB RAM | 32 GB ROM | Expandable Upto 2 TB</li>
+                  <li>15.9 cm (6.26 inch) HD+ Display</li>
+                  <li>13MP + 2MP | 8MP Front Camera</li>
+                  <li>4000 mAh Battery</li>
+                </ul>
+                <br>
+                <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cards4 -->
+
+      <div id="redmi" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/r/o/o/-original-imaghkvuzxkcna4n.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redmi note 12 Pro</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹24,999</li>
+                  <li>6 GB RAM | 128 GB ROM</li>
+                  <li>16.94 cm (6.67 inch) Full HD Display</li>
+                  <li>50MP (OIS) + 8MP + 2MP | 16MP Front Camera</li>
+                  <li>5000 mAh Lithium Polymer Battery</li>
+                </ul>
+                <br>
+                <br>
+                <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img width="95%" height="61%" src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/m/q/e/-original-imagk4nz6xgtexam.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redmi 10</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹10,999</li>
+                <li>6 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
+                <li>17.02 cm (6.7 inch) HD+ Display</li>
+                <li>17.02 cm (6.7 inch) HD+ Display</li>
+                <li>6000 mAh Lithium Polymer Battery</li>
+                <li>Qualcomm Snapdragon 680 Processor</li>
+              </ul>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button></p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img height="60%" src="https://rukminim1.flixcart.com/image/832/832/xif0q/mobile/r/7/s/-original-imaghh2fmnzyzn2g.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redmi note 10 se</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹11,999</li>
+                <li>6 GB RAM | 64 GB ROM | Expandable Upto 512 GB</li>
+                <li>16.33 cm (6.43 inch) Full HD+ Display</li>
+                <li>64MP + 8MP + 2MP + 2MP | 13MP Front Camera</li>
+                <li>5000 mAh Lithium Polymer Battery</li>
+              </ul>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <!-- laptop  cards-->
+      <p id="iphone" style="font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><img src="https://www.apple.com/newsroom/images/product/iphone/standard/Apple_announce-iphone12pro_10132020.jpg.landing-big_2x.jpg"  height="40px" width="20px" style="margin-left: 50%;" alt="not found"> MacBook</p>
+
+      <div id="apple" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://rukminim1.flixcart.com/image/832/832/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70" alt="img not found">
+            <div class="card-body">
+              <h5 class="card-title">APPLE 2020 Macbook Air M1</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹85,990</li>
+                <li>Stylish & Portable Thin and Light Laptop</li>
+                <li>13.3 inch Quad LED Backlit IPS Display (227 PPI, 400 nits Brightness, Wide Colour (P3), True Tone Technology)</li>
+                <li>Light Laptop without Optical Disk Drive</li>
+                
+              </ul></p><br><br><BR></BR>
+              <button type="button" class="btn btn-dark" >Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 55mins mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div  class="col">
+          <div class="card h-100">
+            <img  src="https://rukminim1.flixcart.com/image/832/832/kuyf8nk0/computer/z/k/q/mkgr3hn-a-thin-and-light-laptop-apple-original-imag7yzp78bpnzyg.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">APPLE 2021 Macbook Pro M1 Pro</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹1,81,990
+                </li>
+                <li>Stylish & Portable Thin and Light Laptop</li>
+                <li>14.2 inch Liquid Retina XDR display, Native resolution at 254 pixels per inch, Up to 1,000 nits sustained (full-screen) brightness, 1,600 nits peak brightness, 10,00,000:1 contrast ratio</li>
+                
+                <li>Light Laptop without Optical Disk Drive</li>
+              </ul></p><br>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 2h and 13min mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img   src="https://rukminim1.flixcart.com/image/832/832/kuyf8nk0/computer/3/n/s/mk183hn-a-laptop-apple-original-imag7yzkbgbwvwq3.jpeg?q=70" class="card-img-top" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">Apple MacBook pro Max</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹59,900</li>
+                <li>64 GB ROM</li>
+                <li>13.72 cm (5.4 inch) Super Retina XDR Display</li>
+                <li>Stylish & Portable Thin and Light Laptop</li>
+                <li>A14 Bionic Chip with Next Generation Neural Engine Processor</li>
+              </ul></p>
+              <br><br><br>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 5 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p><a href="#"><more class=""></more></a></p>
+
+      <!-- card2 -->
+      <p id="hp" style="font-size: xx-large; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YW5kcm9pZCUyMHBob25lfGVufDB8fDB8fA%3D%3D&w=1000&q=80"  height="40px" width="20px" style="margin-left: 50%;" alt="not found"> Windows</p>
+      <div id="oneplus" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://rukminim1.flixcart.com/image/832/832/kbqu4cw0/computer/q/x/r/hp-original-imaftyzachgrav8f.jpeg?q=70" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">HP Pavilion Ryzen 5 Hexa Core AMD R5-5600H</h5>
+              <p  class="card-text">
+                <ul>
+                  <li>price: ₹47,700</li>
+                  <li>NVIDIA GeForce GTX 1650</li>
+                  <li>15.6 inch Full HD WLED-Backlit IPS Anti-glare Micro-edge Display (Brightness: 250 nits, 141 PPI, Color Gamut: 45% NTSC)</li>
+                  <li>Light Laptop without Optical Disk Drive</li>
+                  <li>Pre-installed Genuine Windows 10 OS</li>
+                  <li><a target="_blank" href="https://www.flipkart.com/hp-pavilion-ryzen-5-hexa-core-amd-r5-5600h-8-gb-512-gb-ssd-windows-10-4-graphics-nvidia-geforce-gtx-1650-144-hz-15-ec2004ax-gaming-laptop/p/itm98c94bbf9bc20?pid=COMG5GZXPWMGTNWS&lid=LSTCOMG5GZXPWMGTNWSQE9WVW&marketplace=FLIPKART&q=hp+laptop&store=6bo%2Fb5g&spotlightTagId=BestsellerId_6bo%2Fb5g&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_2_na_na_na&fm=search-autosuggest&iid=41d12125-99f3-4279-900e-2fd0fe3f2c38.COMG5GZXPWMGTNWS.SEARCH&ppt=sp&ppn=sp&ssid=kbkvqdu6xc0000001673762541353&qH=9d1edd3d0f6d1b3c">More...</a></li>
+                </ul>
+              </p>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img     src="https://rukminim1.flixcart.com/image/832/832/l4fxh8w0/computer/s/i/s/-original-imagfc54nty5wgeh.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP Pavilion Intel Core i5 12th Gen</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹68,499  </li>
+              <li>Finger Print Sensor for Faster System Access</li>
+              <li>14 inch FHD, IPS, micro-edge, BrightView (Brightness: 250 nits, 157 ppi, Color Gamut: 45%NTSC)</li>
+              <li>5Light Laptop without Optical Disk Drive</li>
+              <li>Stylish & Portable Thin and Light Laptop</li></ul></p><br>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img  src="https://rukminim1.flixcart.com/image/832/832/xif0q/computer/5/6/i/-original-imaggshd5zgfe8ev.jpeg?q=70" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">HP Spectre Intel Evo Core i7 12th Gen</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹46,339 </li>
+                  <li>Stylish & Portable Thin and Light Laptop</li>
+                  <li>15.6 inch Full HD, micro-edge, anti-glare, Brightness: 250 nits, 141 ppi, Color Gamut: 45%NTSC</li>
+                  <li>Light Laptop without Optical Disk Drive</li>
+                  
+                </ul>
+                
+              </p><br>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- card3 -->
+      <div id="asus1" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://rukminim1.flixcart.com/image/832/832/l3rmzrk0/computer/z/2/c/-original-imagetjyhhtrtkdg.jpeg?q=70" class="card-img-top" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">Asus </h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹52,990</li>
+                  <li>NVIDIA GeForce GTX 1650</li>
+                  <li>17.3 Inch FHD, Value IPS-level, anti-glare display (Brightness 250nits, NTSC 45%, SRGB 62.5%)</li>
+                  <li>Light Laptop without Optical Disk Drive</li>
+                  
+                </ul>
+                <br>
+                <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img  src="https://rukminim1.flixcart.com/image/832/832/l3vxbbk0/computer/g/u/y/-original-imagewgtfgzf8fdd.jpeg?q=70" alt="not found">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ROG Strix G15 Ryzen 7 Octa Core AMD R7-4800H</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹87,990</li>
+                <li>15.6 Inch FHD (Brightness 250nits, NTSC % 45%, SRGB % 62.5%)</li>
+                <li>15.75 cm (6.2 inch) Full HD+ Display</li>
+                <li>Light Laptop without Optical Disk Drive</li>
+                
+                
+              </ul>
+              <br>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img margin-left: 55px; src="https://rukminim1.flixcart.com/image/832/832/l0vbukw0/computer/8/e/j/-original-imagckcffymgykfd.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS ROG Strix G15 (2022) Ryzen 7 Octa Core AMD R7-6800H</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price:₹99,990</li>
+                  <li>
+                    15.6 Inch FHD, Value IPS-level, anti-glare display (Brightness 250nits, NTSC % 45%, SRGB % 62.5%)</li>
+                  <li>Light Laptop without Optical Disk Drive</li>
+                  
+                </ul>
+                <br>
+                <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- cards4 -->
+
+      <div id="lenovo" class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="https://rukminim1.flixcart.com/image/832/832/ks99aq80/computer/y/z/7/na-gaming-laptop-lenovo-original-imag5ve3jvhgvsnx.jpeg?q=70" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo IdeaPad Gaming Core i5 11th Gen</h5>
+              <p class="card-text">
+                <ul>
+                  <li>price: ₹52,990</li>
+                  <li>NVIDIA GeForce GTX 1650</li>
+                  <li>15.6 Inch Full HD IPS 250nits Anti-glare, 60Hz, 45% NTSC, DC dimmer</li>
+                  <li>15.6 Inch Full HD IPS 250nits Anti-glare, 60Hz, 45% NTSC, DC dimmer</li>
+                  <li>Light Laptop without Optical Disk Drive</li>
+                </ul>
+                <br>
+                <br>
+                <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img  src="https://rukminim1.flixcart.com/image/832/832/kt39jm80/computer/f/0/s/na-gaming-laptop-lenovo-original-imag6ggmwjmgqhqn.jpeg?q=70" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo Legion 5 Ryzen 7 Octa Core AMD R7-5800H</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹1,35,990</li>
+                <li>15.6 inch Full HD LED Backlit Anti-glare IPS Display (165Hz Refresh Rate, 300 nits Brightness, 100% sRGB, Dolby Vision, Free-Sync, G-Sync, DC Dimmer)</li>
+                <li>Light Laptop without Optical Disk Drive</li>
+                <li>Pre-installed Genuine Windows 10 OS</li>
+                <li>Preloaded with MS Office</li>
+                
+              </ul>
+              <br>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button></p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img  src="https://rukminim1.flixcart.com/image/832/832/xif0q/computer/e/6/a/15iah7-gaming-laptop-lenovo-original-imaggmxxjupstpez.jpeg?q=70" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lenovo IdeaPad Gaming 3 Core i5 12th Gen</h5>
+              <p class="card-text"><ul>
+                <li>price: ₹78,990</li>
+                <li>15.6 Inch Full HD IPS 250nits Anti-glare, 45% NTSC, 120Hz</li>
+                <li>1Light Laptop without Optical Disk Drive</li>
+                <li>Preloaded with MS Office</li>
+                
+              </ul><br><br><br>
+              <button type="button" class="btn btn-dark">Buy Now</button>
+              <button type="button" class="btn btn-dark">Add to card</button>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- footer -->
+      <footer class="footer">
+        <div id="container">
+          <div class="row">
+            <div id="nov" class="footer-cal">
+              <h4>About</h4>
+              <ul>
+                <li><a style="color: white;" href="#">Contact us </a></li>
+                <li><a style="color: white;" href="#">About us</a></li>
+                <li><a style="color: white;" href="#">Information </a></li>
+                <li><a style="color: white;" href="#">wholesale</a></li>
+                <li><a style="color: white;" href="#"></a></li>
+              </ul>
+            </div>
+
+            <div class="footer-cal" id="help">
+              <h4 >Help</h4>
+              <ul>
+                <li><a style="color: white;" href="#">payments</a></li>
+                <li><a style="color: white;" href="#">Shipping</a></li>
+                <li><a style="color: white;" href="#">Cancllation & Retruns</a></li>
+                <li><a style="color: white;" href="#">FAQ</a></li>
+                <li><a style="color: white;" href="#">Report Infringement</a></li>
+                <li><a style="color: white;" href="#">Order status</a></li>
+
+              </ul>
+            </div>
+
+            <div id="policy" class="footer-cal">
+              <h4>Policy</h4>
+              <ul>
+                <li><a style="color: white;" href="#">Retrun Policy</a></li>
+                <li><a style="color: white;" href="#">Term of us</a></li>
+                <li><a style="color: white;" href="#">Security</a></li>
+                <li><a style="color: white;" href="#">Privacy</a></li>
+              </ul>
+            </div>
+
+            <div id="social" class="footer-cal">
+              <h4>Social</h4>
+              <div class="social-links">
+              
+                <li><a style="color: white;" href="#"> <i class="fab fa-facebook-f"></i> Facebook </a></li>
+                <li><a style="color: white;" href="#"><i class="fab fa-twitter"></i> twitter</a></li>
+                <li><a style="color: white;" href="#"><i class="fab fa-youtube"></i> Youtube</a></li>
+                <li><a style="color: white;" href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+              
+            </div>
+            </div>
+
+          </div>
+        </div>
+
+      </footer>
+     
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      function openpage()
+      {
+        var x = document.getElementById("search").value;
+
+        // if(x ==="mobile")
+        // {
+        //   window.open("#iphone")
+        // }
+        // else if(x === "laptop")
+        // {
+        //   window.open("#apple")
+        // }
+        switch(x)
+        {
+          case "mobiles":window.open("#iphone");break;
+          case "laptop" : window.open("#laptop");break;
+          case "apple" : window.open("#apple");break;
+          case "apple" : window.open("#apple");break;
+          case "redmi" : window.open("#redmi");break;
+          case "oneplus" : window.open("#one");break;
+          case "asus mobile" : window.open("#asus");break;
+          case "asus laptop" : window.open("#asus1");break;
+          case "lenovo" : window.open("#lenovo");break;
+          case "hp" : window.open("#hp");break;
+          default: alert("no search result found");
+        }
+       
+        
+      }
+    </script>
+</body>
+</html>

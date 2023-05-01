@@ -1,0 +1,61 @@
+.footer-cal{
+    border: 1PX solid black;
+    display: flex;
+    display: inline-block;
+    height: 35%;
+    width: 15%;
+    position: absolute;
+    background-color: #172337;
+    color: #666;
+}
+#container{
+    background-color: #5f4eeb;
+    display: flex;
+    display: inline-block;
+    height: 45%;
+    width: 15%;
+    justify-content: center;
+    
+}
+#hov:hover + ul{
+    display: block;
+
+}
+#lap:hover + ul{
+    display: inline;
+}
+
+#help{
+    margin-left: 25%;
+}
+#policy{
+    margin-left: 50%;
+}
+#social{
+    margin-left: 75%;
+}
+#id
+{
+    color: white;
+}
+.col:hover{
+    transform: scale(1.1);
+}
+.col{
+    transition: all 0.3s;
+}
+#navbarDropdown:hover{
+    transform: scale(1.1);
+
+}
+#navbarDropdown{
+    transition: all 0.3s;
+}
+/* .footer-cal{
+    width: ;
+} */
+
+
+
+
+
